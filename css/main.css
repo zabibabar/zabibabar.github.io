@@ -147,11 +147,15 @@ hr + div {
   font-size: 22px;
 }
 
+.position {
+  font-size: 18px;
+}
+
 .location {
   font-size: 18px;
 }
 
-.title + hr {
+.edu-header > hr {
   border-bottom: 1px solid #285172;
   margin: 0px;
 }
@@ -211,24 +215,6 @@ hr + div {
 .contact-item {
   display: flex;
   align-items: center;
-}
-
-.contact-item:hover > .hidden-link {
-  display: block;
-}
-
-.hidden-link {
-  padding: 5px;
-  display: none;
-}
-
-.hidden-link > a {
-  color: white;
-}
-
-.hidden-link > a:hover {
-  color: #2196f3;
-  text-decoration: none;
 }
 
 .page-footer {
