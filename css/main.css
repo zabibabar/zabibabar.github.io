@@ -1,7 +1,6 @@
 :root {
   --primary-color: #285172;
-  --secondary-color-1: #2196f3;
-  --secondary-color-2: #51a8d1;
+  --secondary-color-1: #51a8d1;
   --secondary-color-3: #eaf1f1;
   --primary-font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
@@ -57,7 +56,7 @@ h6 {
 }
 
 .navbar-brand:hover {
-  color: var(--secondary-color-2);
+  color: var(--secondary-color-1);
 }
 
 .nav-link {
@@ -67,12 +66,12 @@ h6 {
 }
 
 .nav-link:hover {
-  color: var(--secondary-color-2);
+  color: var(--secondary-color-1);
   font-size: 22px;
 }
 
 .nav-link:active {
-  color: var(--secondary-color-2);
+  color: var(--secondary-color-1);
   font-size: 20px;
 }
 
@@ -91,26 +90,19 @@ h6 {
 }
 
 .navbar-toggler:hover .fa-bars {
-  color: var(--secondary-color-2);
+  color: var(--secondary-color-1);
 }
 
 /* || Header */
 
 header {
   background-image: linear-gradient(
-    to top,
+    to bottom,
     #285172,
-    #275e89,
-    #246ba0,
-    #2178b8,
-    #1f85d1,
-    #2894dc,
-    #34a3e7,
-    #41b2f1,
-    #6bc5ec,
-    #96d5e9,
-    #c0e4ea,
-    #eaf1f1
+    #326689,
+    #3d7ba1,
+    #4791b9,
+    #51a8d1
   );
   color: #fff;
   padding-top: 100px;
@@ -214,6 +206,15 @@ header {
   font-size: 14px;
 }
 
+.card a {
+  color: var(--secondary-color-1);
+}
+
+.card a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
 /* || Contacts */
 
 .contacts {
@@ -240,7 +241,7 @@ header {
 }
 
 .btn-outline:hover .social-icon {
-  color: var(--secondary-color-2);
+  color: var(--secondary-color-1);
 }
 
 .social-icon {
