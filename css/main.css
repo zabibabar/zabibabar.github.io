@@ -59,7 +59,15 @@ h6 {
   .navbar-brand {
     color: White;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
+  }
+
+  .profile-pic {
+    width: 200x;
+    height: 200px;
+    border-radius: 200px;
+    border: 2px solid white;
+    margin: 20px;
   }
 }
 
