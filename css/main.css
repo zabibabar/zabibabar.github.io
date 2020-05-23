@@ -218,20 +218,20 @@ header {
 /* || Contacts */
 
 .contacts {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 0 10px 10px 0;
-  position: fixed;
   display: flex;
-  flex-direction: column;
-  top: 40%;
-  background-color: var(--primary-color);
-  padding: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts .contact-item {
+  margin: 0px 5px;
 }
 
 .btn-outline {
   margin: 8px 0;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   border-radius: 25px;
   border: 2px solid white;
 }
@@ -243,18 +243,12 @@ header {
 .btn-outline:hover .social-icon {
   color: var(--secondary-color-1);
 }
-
 .social-icon {
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
 }
 
 /* || Footer */
@@ -272,6 +266,15 @@ header {
 
 .links-footer {
   align-self: center;
+}
+
+.links-footer .contact-item {
+  margin: 0px 5px;
+}
+
+.links-footer .btn-outline {
+  width: 32px;
+  height: 32px;
 }
 
 @media only screen and (max-width: 768px) {
