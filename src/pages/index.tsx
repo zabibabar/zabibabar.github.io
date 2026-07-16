@@ -13,7 +13,10 @@ export default function Home() {
         the token architecture and the Figma-to-code pipeline that turns
         designs into production UI. I also architected the frontend of LTK&apos;s
         Creator Management Platform and mentor other engineers on React best
-        practices.
+        practices. I work spec-driven with an AI-augmented pipeline I built
+        myself — 15+ custom agent skills covering requirements, architecture
+        docs, TDD, and code review — which lets me deliver large projects solo
+        at an unusual pace.
       </p>
       <p>
         Outside of work, I enjoy playing sports. I am a member of a local

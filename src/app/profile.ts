@@ -40,7 +40,7 @@ const profile: Profile = {
       details: [
         "Led a globally distributed scrum team architecting a configurable white-label branding system for claim filing by shoppers redirected from Walmart, Home Depot, Target, and other partner storefronts.",
         "Built the app's Angular localization pipe, delivering Lokalise translations with locale-aware date and number formatting.",
-        "Mentored and promoted junior engineers on both technical and leadership skills.",
+        "Mentored junior engineers on technical and leadership skills, guiding them to promotion.",
       ],
       location: "Remote",
       duration: "Feb 2022 - Aug 2023",
@@ -85,7 +85,7 @@ const profile: Profile = {
       details: [
         "Website for Tampa Volunteers, the 300+ member Meetup community I founded, connecting volunteers with nonprofits across Tampa.",
         "I used React, Next.js, and Material UI for this project.",
-        "Deployed using Github Action and Github Pages.",
+        "Deployed with GitHub Actions and GitHub Pages.",
       ],
     },
   ],
@@ -108,14 +108,7 @@ const profile: Profile = {
     },
     {
       title: "Backend",
-      details: [
-        "Node.js",
-        "NestJS",
-        "Redis",
-        "PostgreSQL",
-        "Sequelize",
-        "MongoDB",
-      ],
+      details: ["Node.js", "NestJS", "Redis", "PostgreSQL", "MongoDB"],
     },
     {
       title: "Testing",
