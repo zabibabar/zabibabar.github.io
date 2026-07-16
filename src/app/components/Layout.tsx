@@ -72,6 +72,7 @@ const Layout = ({ title, children }: LayoutProps) => {
               />
               <Typography
                 variant="subtitle1"
+                fontWeight="500"
                 component="div"
                 gutterBottom
                 color="primary.contrastText"
@@ -83,17 +84,32 @@ const Layout = ({ title, children }: LayoutProps) => {
                 component="div"
                 gutterBottom
                 color="primary.contrastText"
+              >
+                React · TypeScript · NestJS · Design Systems
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                component="div"
+                gutterBottom
+                color="primary.contrastText"
                 textAlign="center"
               >
                 Founder / Organizer of{" "}
-                <Link href="https://tampavolunteers.com/?utm_source=Portfolio&utm_medium=header" color="secondary">
+                <Link
+                  href="https://tampavolunteers.com/?utm_source=Portfolio&utm_medium=header"
+                  color="secondary"
+                >
                   Tampa Volunteers
                 </Link>
               </Typography>
             </Box>
           </Container>
         </Box>
-        <Box sx={{ flexGrow: 1, pb: 8 }} bgcolor="#F0FBFF">
+        <Box
+          id="content"
+          sx={{ flexGrow: 1, pb: 8, scrollMarginTop: { xs: 56, sm: 64 } }}
+          bgcolor="#F0FBFF"
+        >
           {children}
         </Box>
         <Footer />

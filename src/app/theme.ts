@@ -9,6 +9,13 @@ export const poppins = Poppins({
 });
 
 const theme = createTheme({
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        html: { scrollBehavior: "smooth" },
+      },
+    },
+  },
   palette: {
     primary: {
       main: "#51a8d1",

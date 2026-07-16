@@ -14,11 +14,11 @@ import LaunchIcon from "@mui/icons-material/Launch";
 import Link from "./Link";
 
 const pages = [
-  { label: "Home", link: "/" },
-  { label: "Experience", link: "experience" },
-  { label: "Projects", link: "projects" },
-  { label: "Skills", link: "skills" },
-  { label: "Education", link: "education" },
+  { label: "Home", link: "/#content" },
+  { label: "Experience", link: "experience#content" },
+  { label: "Projects", link: "projects#content" },
+  { label: "Skills", link: "skills#content" },
+  { label: "Education", link: "education#content" },
 ];
 
 export default function NavBar() {
