@@ -76,7 +76,7 @@ const Layout = ({ title, children }: LayoutProps) => {
                 gutterBottom
                 color="primary.contrastText"
               >
-                Fullstack Software Engineer
+                Software Engineer @ LTK
               </Typography>
               <Typography
                 variant="subtitle1"

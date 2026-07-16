@@ -7,12 +7,13 @@ export default function Home() {
   return (
     <Section title="About Me">
       <p>
-        I am a Software Engineer at SquareTrade, Inc. I work in the co-branding
-        team and I have lead several projects to completion, namely, Telenor,
-        Softbank, Walmart, and Staples. I work in a critical part of codebase to
-        refactor and scale the project to support different merchants and their
-        specific branding needs. I also mentor junior developers by teaching
-        Angular concepts, reviewing code, and providing feedback.
+        I am a Software Engineer at LTK — a frontend-leaning product engineer
+        with design-engineering depth. I work primarily in React and
+        TypeScript, and I lead our React component library, where I designed
+        the token architecture and the Figma-to-code pipeline that turns
+        designs into production UI. I also architected the frontend of LTK&apos;s
+        Creator Management Platform and mentor other engineers on React best
+        practices.
       </p>
       <p>
         Outside of work, I enjoy playing sports. I am a member of a local
@@ -20,14 +21,15 @@ export default function Home() {
         with my friends on a weekly basis.
       </p>
       <p>
-        Moreover, I give back to the community via volunteering. I organize a
-        Meetup group called{" "}
+        Moreover, I give back to the community via volunteering. I founded and
+        organize{" "}
         <Link href="https://tampavolunteers.com/?utm_source=Portfolio&utm_medium=about" color="secondary">
           Tampa Volunteers
-        </Link>{" "}
-        to share non-profit organizations I volunteer at with other members of
-        the community. I hold 3-4 monthly events and I coordinate between the
-        event organizers and local volunteers.
+        </Link>
+        , a Meetup community of 300+ members that connects volunteers with
+        nonprofits across Tampa. I coordinate between event organizers and
+        local volunteers, and I have built a leadership pipeline by promoting
+        members into organizer roles.
       </p>
     </Section>
   );
